@@ -1,4 +1,4 @@
-# ⚡ Jumeau numérique pourr le couplage électromagnétique (stage ENIT)
+# ⚡ Jumeau numérique pour le couplage électromagnétique (stage ENIT)
 
 Ce dépôt contient mes travaux liés à mon stage de fin d'études réalisé au Laboratoire Génie de Production (LGP - ENIT) à Tarbes, dans le cadre de l’optimisation d’un système de traction ferroviaire.\
 \
