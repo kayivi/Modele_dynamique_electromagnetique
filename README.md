@@ -38,6 +38,6 @@ L’objectif final est de représenter le comportement électromagnétique du sy
 
 ## 📷 Exemples de résultats
 
-| Champ magnétique \\( H \\) | Bond Graph |
+| Champ magnétique | Bond Graph |
 |---------------------------|-------------------|
 | ![](figures/champ_H.png)  | ![](figures/bond_graph_global.png) |
