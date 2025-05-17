@@ -29,22 +29,15 @@ L’objectif final est de représenter le comportement électromagnétique du sy
 
 ## 📁 Organisation du dépôt
 
-- `src/` : code source Python de la simulation FVM
-- `results/` : résultats numériques (champs magnétique H et électrique E, matrices, visualisations)
-- `figures/` : images clés du projet (Bond Graph, maillages)
+- `src/` : code source Python de la simulation FVM en 2D pour le fil infini
+- `results/` : résultats numériques (champ magnétique H, densité de courant, validations 1D)
+- `figures/` : images clés du projet (Domaine, Bond Graph, semi Bond Graph sur un élément dans l'air)
 - `docs/` : présentation PDF, rapport de stage (en anglais)
 
 ---
 
 ## 📷 Exemples de résultats
 
-| Champ magnétique \\( H \\) | Bond Graph global |
+| Champ magnétique \\( H \\) | Bond Graph |
 |---------------------------|-------------------|
 | ![](figures/champ_H.png)  | ![](figures/bond_graph_global.png) |
-
----
-
-## 🔧 Dépendances
-
-```bash
-pip install -r requirements.txt
