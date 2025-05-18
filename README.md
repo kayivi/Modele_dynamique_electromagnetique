@@ -40,4 +40,4 @@ L’objectif final est de représenter le comportement électromagnétique du sy
 
 | Champ magnétique | Bond Graph |
 |---------------------------|-------------------|
-| ![](figures/champ_H.png)  | ![](figures/bond_graph_global.png) |
+| ![](results/zoom_magnetic_field.png)  | ![](figures/bg.png) |
