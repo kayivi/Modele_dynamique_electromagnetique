@@ -1,0 +1,41 @@
+//file 1_wire.edp (FreeFem++)
+//==============================================================================
+//unstructured cable mesh in a square domain
+//==============================================================================
+
+bool debug = true;
+
+int n = 75;
+
+	//dimension
+real debut = -0.1, fin = 0.1;
+real rayon = 0.006;  
+    
+	//Characteristic summits
+real x0 = debut , y0 = debut;
+real x1 = fin , y1 = debut;
+real x2 = fin , y2 = fin;
+real x3 = debut , y3 = fin;
+real x4 = debut , y4 = debut;
+
+
+	//On-board parameterization
+border bas(t=0,1) {x=x0+t*(x1-x0); y=y0+t*(y1-y0); label = 1;};
+border droite(t=0,1) {x=x1+t*(x2-x1); y=y1+t*(y2-y1); label = 1;};
+border haut(t=0,1) {x=x2+t*(x3-x2); y=y2+t*(y3-y2); label = 1;};
+border gauche(t=0,1) {x=x3+t*(x4-x3); y=y3+t*(y4-y3); label = 1;};
+border cable(t=0, 2.*pi){x=rayon*cos(t); y=rayon*sin(t); label=2;}; 
+
+    //Domain image
+//plot(bas(10) + droite(10) + haut(10) + gauche(10) + cable(10), wait=debug);
+
+    //Mesh
+//mesh Th = buildmesh(bas(10) + droite(10) + haut(10) + gauche(10) + cable(20));
+//mesh Th = buildmesh(bas(5) + droite(5) + haut(5) + gauche(5) + cable(10));
+//mesh Th = buildmesh(bas(30) + droite(30) + haut(30) + gauche(30) + cable(50));
+mesh Th = buildmesh(bas(n) + droite(n) + haut(n) + gauche(n));
+
+
+plot(Th, wait=debug);
+
+savemesh(Th, "1_wire.msh");
