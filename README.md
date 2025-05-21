@@ -29,10 +29,11 @@ L’objectif final est de représenter le comportement électromagnétique du sy
 
 ## 📁 Organisation du dépôt
 
-- `src/` : code source Python de la simulation FVM en 2D pour le fil infini
-- `results/` : résultats numériques (champ magnétique H, densité de courant, validations 1D)
-- `figures/` : images clés du projet (Domaine, Bond Graph, semi Bond Graph sur un élément dans l'air)
-- `docs/` : présentation PDF, rapport de stage (en anglais)
+- [`src/`](https://github.com/kayivi/Modele_dynamique_electromagnetique/tree/main/src) : code source Python de la simulation FVM en 2D pour le fil infini
+- [`results/`](https://github.com/kayivi/Modele_dynamique_electromagnetique/tree/main/results) : résultats numériques (champ magnétique H, densité de courant, validations 1D)
+-
+- [`figures/`](https://github.com/kayivi/Modele_dynamique_electromagnetique/tree/main/figures) : images clés du projet (Domaine, Bond Graph, semi Bond Graph sur un élément dans l'air)
+- [`docs/`](https://github.com/kayivi/Modele_dynamique_electromagnetique/tree/main/docs) : présentation PDF, rapport de stage (en anglais)
 
 ---
 
