@@ -41,3 +41,9 @@ L’objectif final est de représenter le comportement électromagnétique du sy
 | Champ magnétique | Bond Graph |
 |---------------------------|-------------------|
 | ![](results/zoom_magnetic_field.png)  | ![](figures/bg.png) |
+
+---
+
+## 🔧 Outils
+
+`Python` `FreeFem++`  `Matlab`  —— EDP/EDO, Équations de Maxwell, Bond Graph, Représentation d'état
