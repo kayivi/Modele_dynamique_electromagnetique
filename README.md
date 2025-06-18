@@ -46,4 +46,4 @@ L’objectif final est de représenter le comportement électromagnétique du sy
 
 ## 🔧 Outils
 
-`Python` `FreeFem++`  `Matlab`  —— EDP/EDO, Équations de Maxwell, Bond Graph, Représentation d'état
+`Python` `FreeFem++`  `Matlab`  —— EDP/EDO, Équations de Maxwell, Volumes finis, Différences finis, Bond Graph, Représentation d'état
